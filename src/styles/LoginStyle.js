@@ -6,28 +6,30 @@ const { height } = Dimensions.get('screen');
 export default StyleSheet.create({
     container: {
         flex: 1,
-        padding: 8,
         backgroundColor: COLOR.white,
         // justifyContent: 'center'
     },
-    viewLogo:{
+    formView: {
+        marginTop: height * 0.02,
         width: width * 0.9,
-        height: height / 6,
-        // backgroundColor: COLOR.greyText,
         alignSelf: 'center',
-        marginVertical: 16,
+        padding: 8,
+    },
+    viewLogo: {
+        marginBottom: height * 0.01,
+        alignSelf: 'center',
         alignItems: 'center',
         justifyContent: 'center',
     },
-    logoImg: {
-        width: height / 6,
-        height: '100%',
-    },
+    // logoImg: {
+    //     width: height / 6,
+    //     height: '100%',
+    // },
     viewInput: {
-        width: width * 0.9,
+        // width: width * 0.9,
         flexDirection: 'row',
         backgroundColor: COLOR.input,
-        height: 55,
+        height: 50,
         alignSelf: 'center',
         marginVertical: 12,
         backgroundColor: COLOR.input,
@@ -35,7 +37,7 @@ export default StyleSheet.create({
     },
     viewIcon: {
         width: '15%',
-        height: 55,
+        height: 50,
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'row',
@@ -48,7 +50,7 @@ export default StyleSheet.create({
     },
     input: {
         width: '85%',
-        height: 55,
+        height: 50,
         alignSelf: 'center',
         marginVertical: 12,
         paddingVertical: 3,
@@ -56,21 +58,20 @@ export default StyleSheet.create({
         borderRadius: 5,
         fontSize: 17
     },
-    forgot: {
-        padding: 5,
-        width: width * 0.9,
-        alignSelf: 'center',
-    },
+    // forgot: {
+    //     padding: 5,
+    // },
     textForgot: {
+        marginVertical: 8,
         color: COLOR.greyText,
         fontSize: 15,
-        textAlign:'right'
+        textAlign: 'right'
     },
     login: {
-        width: width * 0.9,
-        height: 55,
+        width: '100%',
+        height: 50,
         borderRadius: 5,
-        marginVertical: 15,
+        marginVertical: 12,
         backgroundColor: COLOR.primary,
         alignSelf: 'center',
         justifyContent: 'center',
@@ -81,62 +82,43 @@ export default StyleSheet.create({
         color: COLOR.white,
         fontSize: 16,
         marginHorizontal: 3,
-        // fontWeight: 'bold'
     },
     textOr: {
         textAlign: 'center',
         color: COLOR.black,
         fontSize: 17,
-        marginVertical: 5
+        marginVertical: 12
     },
-    viewDif:{
-        width: width * 0.9,
-        height: height * 0.1,
-        marginVertical: 8,
+    viewDif: {
+        width: '100%',
+        height: height * 0.05,
+        marginVertical: 16,
         alignItems: 'center',
         alignSelf: 'center',
         flexDirection: 'row',
-        // backgroundColor: COLOR.greyText
     },
-    loginFB:{
+    loginFB: {
         width: '30%',
-        height: '100%',
         marginHorizontal: 5,
         justifyContent: 'center',
         alignItems: 'center',
     },
-    imgFB:{
-        width: '50%',
-        height: '50%'
-    },
-    loginTT:{
+    loginTT: {
         width: '30%',
-        height: '100%',
         marginHorizontal: 5,
         justifyContent: 'center',
         alignItems: 'center',
     },
-    imgTT:{
-        width: '50%',
-        height: '50%'
-    },
-    loginGG:{
+    loginGG: {
         width: '30%',
-        height: '100%',
         marginHorizontal: 5,
         justifyContent: 'center',
         alignItems: 'center',
-    },
-    imgGG:{
-        width: '50%',
-        height: '50%'
     },
     viewSignUp: {
         alignItems: 'center',
         alignSelf: 'center',
         marginVertical: 20,
-        // position: 'absolute',
-        // bottom: 12,
     },
     textSignUp: {
         color: COLOR.primary,
