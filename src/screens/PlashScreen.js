@@ -6,6 +6,7 @@ const PlashScreen = () => {
     return (
         <View style={styles.container}>
             <Text>aaaaaaaaaaaaaa</Text>
+            <Text>Tao dagassasa text </Text>
         </View>
     )
 }
