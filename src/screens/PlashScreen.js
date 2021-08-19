@@ -5,7 +5,7 @@ import styles from '../styles/PlashStyle';
 const PlashScreen = () => {
     return (
         <View style={styles.container}>
-            <Text>Tao deo lam dau may tmlldfffsl</Text>
+            <Text>Tao deo lam dau dfhgfhgmay tmlldfffsl</Text>
         </View>
     )
 }
